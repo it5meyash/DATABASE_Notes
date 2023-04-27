@@ -1,0 +1,21 @@
+1) drop and delete - "Drop" refers to removing an entire database object, such as a table, view, or index, from the database schema.
+                     "Delete", on the other hand, refers to removing specific data rows from a table.
+
+2) In foreign key we have to decide that which table should be main table and which table have foreign key.
+3) null != null
+4) drop and truncate - DROP TABLE statement is used to remove the entire table from the database.
+                       TRUNCATE TABLE statement is used to remove all rows from a table without deleting the table structure itself.
+5) using auto_increment syntax we have to define primary key also for which we column we are using bcs it is a unique value.
+6) In group by key we can only select column which we are grouping and only can select on which column we are performing aggregation function apart from these we can not add another column in select statement.
+7) you cannot use the HAVING clause without using the GROUP BY clause in the same query.
+8) Where Clause and Group By Clause --> What should be the proper sequence??
+   Answer -> Where Clause and then Group By bsc WHERE clause filters the rows before they are grouped.
+9) In a SQL query, the recommended order of clauses is generally:
+    SELECT
+    FROM
+    JOIN
+    WHERE
+    GROUP BY
+    HAVING
+    ORDER BY
+10) The SQL CASE statement is used to evaluate a set of conditions and return a specific value if the condition is true.CASE statement to perform different operations like sorting, filtering, and aggregating data based on certain conditions.
