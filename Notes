@@ -19,3 +19,8 @@
     HAVING
     ORDER BY
 10) The SQL CASE statement is used to evaluate a set of conditions and return a specific value if the condition is true.CASE statement to perform different operations like sorting, filtering, and aggregating data based on certain conditions.
+11) Window functions are used in SQL to perform calculations across a set of rows that are related to the current row. 
+    Syntax for window function
+    agg-function()-------|
+          +              |------ over(partition by col1,col2,col3 order by col4,col5)
+    window-function()----|
