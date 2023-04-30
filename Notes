@@ -1,7 +1,10 @@
 1) drop and delete - "Drop" refers to removing an entire database object, such as a table, view, or index, from the database schema.
                      "Delete", on the other hand, refers to removing specific data rows from a table.
-   update and alter - UPDATE statement is used to modify one or more records in a table. It changes the values of one or more columns of an existing record(s) in a table. 
-                      ALTER statement is used to modify the structure of a table, such as adding or deleting columns, changing the data type of columns, or adding or removing constraints.  
+   update and alter - "UPDATE" statement is used to modify one or more records in a table. It changes the values of one or more columns of an existing record(s) in a table. 
+                      "CONVERT" is a SQL function used to convert data from one data type to another.
+                      ----CONVERT ( data_type [ ( length ) ] , expression [ , style ] )
+                      "ALTER" statement is used to modify the structure of a table, such as adding or deleting columns, changing the data type of columns, or adding or removing constraints.  
+                      "CAST" is a function in SQL that allows you to convert a value of one data type to another. It is used to change the data type of a column or an expression to a different data type.
 2) In foreign key we have to decide that which table should be main table and which table have foreign key.
 3) null != null
 4) drop and truncate - DROP TABLE statement is used to remove the entire table from the database.
