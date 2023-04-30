@@ -1,6 +1,7 @@
 1) drop and delete - "Drop" refers to removing an entire database object, such as a table, view, or index, from the database schema.
                      "Delete", on the other hand, refers to removing specific data rows from a table.
-
+   update and alter - UPDATE statement is used to modify one or more records in a table. It changes the values of one or more columns of an existing record(s) in a table. 
+                      ALTER statement is used to modify the structure of a table, such as adding or deleting columns, changing the data type of columns, or adding or removing constraints.  
 2) In foreign key we have to decide that which table should be main table and which table have foreign key.
 3) null != null
 4) drop and truncate - DROP TABLE statement is used to remove the entire table from the database.
@@ -22,5 +23,25 @@
 11) Window functions are used in SQL to perform calculations across a set of rows that are related to the current row. 
     Syntax for window function
     agg-function()-------|
-          +              |------ over(partition by col1,col2,col3 order by col4,col5)
+          +              |------ over(partition by col1,col2,col3 | order by col4,col5)
     window-function()----|
+12) To perform a rolling sum or any other rolling calculation, we typically use the ORDER BY clause.
+13) With only one wf defination we can only apply one type of window function which can be avg(),sum() etc
+14) RANK(): This function assigns the same rank to rows that have the same values.
+    DENSE_RANK(): This function also assigns the same rank to rows that have the same values, but it doesn't increment the rank of the next row by the number of tied rows.
+    ROW_NUMBER(): This function assigns a unique row number to each row within a specified window, starting at 1 and incrementing by 1 for each subsequent row.
+    LAG(column, offset, default), The LAG() function returns the value of a column from a row that is offset a specified number of rows before the current row within a partition. 
+    LEAD() function works similarly to the LAG() function, but returns the value of a column from a row that is offset a specified number of rows after the current row within a partition
+15) When a SQL statement is executed, the database engine processes the SELECT clause from left to right, so any aliases used in the SELECT clause must be defined before they are referenced.
+
+
+
+
+
+
+
+
+
+
+
+
