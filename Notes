@@ -38,6 +38,7 @@
 15) When a SQL statement is executed, the database engine processes the SELECT clause from left to right, so any aliases used in the SELECT clause must be defined before they are referenced.
 16) The IN and NOT IN operators in SQL are used to match a value with a set of values.
 17) "CONCAT" function to concatenate details from multiple columns in MySQL.
+18)  If you are trying to use a subquery in a comparison expression, but the subquery returns more than one column, you will get this error.
 
 
 
