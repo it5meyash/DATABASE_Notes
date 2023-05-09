@@ -40,7 +40,7 @@
 17) "CONCAT" function to concatenate details from multiple columns in MySQL.
 18)  If you are trying to use a subquery in a comparison expression, but the subquery returns more than one column, you will get this error.
 19) ROUND is a mathematical function in SQL that rounds a numeric value to a specified precision or number of decimal places.
-
+20) Frame Clause - 
 
 
 
