@@ -18,10 +18,12 @@
     SELECT
     FROM
     JOIN
+    ON
     WHERE
     GROUP BY
     HAVING
     ORDER BY
+    COUNT 
 10) The SQL CASE statement is used to evaluate a set of conditions and return a specific value if the condition is true.CASE statement to perform different operations like sorting, filtering, and aggregating data based on certain conditions.
 11) Window functions are used in SQL to perform calculations across a set of rows that are related to the current row. 
     Syntax for window function
@@ -41,6 +43,10 @@
 18)  If you are trying to use a subquery in a comparison expression, but the subquery returns more than one column, you will get this error.
 19) ROUND is a mathematical function in SQL that rounds a numeric value to a specified precision or number of decimal places.
 20) Frame Clause - 
+21) Views - It can be useful for simplifying complex queries, providing a more secure way to control access to data, and separating the concerns of data storage and retrieval.
+            It is a virtual table.
+22) WITH - clause can be used to simplify complex SQL queries by breaking them down into smaller, more manageable parts.
+           also known as Common Table Expression or CTE) is a temporary named result set that you can reference within a SELECT, INSERT, UPDATE, or DELETE statement.
 
 
 
