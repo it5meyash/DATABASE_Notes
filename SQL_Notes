@@ -49,7 +49,8 @@
            It is also known as Common Table Expression or CTE is a temporary named result set that you can reference within a SELECT, INSERT, UPDATE, or DELETE statement.
 23) with clause can be faster bcs cte that exists only for the duration of the SQL statement that uses it so we have to perform query single time,
     the query that uses view we have to execute it multiple time .
-24)
+24) learn recursive query.
+
 
 
 
