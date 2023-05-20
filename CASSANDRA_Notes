@@ -1,1 +1,4 @@
- 
+CAP theoram -  It states that it is impossible for a distributed data system to simultaneously provide consistency (C), availability (A), and partition tolerance (P) under certain failure scenarios.
+               Consistency refers to all nodes in a distributed system having the same view of data at the same time. 
+               Availability means that the system continues to operate and respond to client requests even in the presence of failures. 
+               Partition tolerance refers to the system's ability to function and maintain data consistency despite network partitions. 
