@@ -1,4 +1,20 @@
-CAP theoram -  It states that it is impossible for a distributed data system to simultaneously provide consistency (C), availability (A), and partition tolerance (P) under certain failure scenarios.
-               Consistency refers to all nodes in a distributed system having the same view of data at the same time. 
-               Availability means that the system continues to operate and respond to client requests even in the presence of failures. 
-               Partition tolerance refers to the system's ability to function and maintain data consistency despite network partitions. 
+https://www.edureka.co/blog/interview-questions/cassandra-interview-questions/
+https://www.adaface.com/blog/cassandra-interview-questions/
+
+
+Q1) Write a query to filter data from cassandra table or how to use where clause
+    # Rules for where clause - It can be used effectively with high performance for given below type of columns
+    # 1.) Partition Key (Single or Composite)
+                       #OR
+    # 2.) if Cluster column  used in where clause then it should be with Partition Key
+                       #OR
+    # 3.) A column on which we have applied the index
+                       #OR
+    # 4.) A column which is not part of partition key or index column or clustering column then we can use where clause but we have to
+    # use keyword ALLOW FILTERING - it will be a super slow performance when data volume is very high
+
+Q2) Group by in cassandra  -  Allowed for all columns which are part of Primary Key
+    # Follow given below rules
+    # Rule - 1 : Use only partition key in the group by
+                  #OR
+    # Rule - 2 : if Cluster key column is used then follow the actual declared sequence in the primary key
