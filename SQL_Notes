@@ -50,7 +50,7 @@
 23) with clause can be faster bcs cte that exists only for the duration of the SQL statement that uses it so we have to perform query single time,
     the query that uses view we have to execute it multiple time .
 24) learn recursive query.
-
+25) see joins
 
 
 
