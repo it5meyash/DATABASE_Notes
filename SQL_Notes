@@ -42,7 +42,8 @@
 17) "CONCAT" function to concatenate details from multiple columns in MySQL.
 18)  If you are trying to use a subquery in a comparison expression, but the subquery returns more than one column, you will get this error.
 19) ROUND is a mathematical function in SQL that rounds a numeric value to a specified precision or number of decimal places.
-20) Frame Clause - 
+20) Frame Clause - The frame clause in SQL window functions is used to define the subset of rows within a partition that the window function operates on.
+                   It allows you to specify the range or boundary of rows that should be considered for the calculation of the window function within each partition.
 21) Views - It can be useful for simplifying complex queries, providing a more secure way to control access to data, and separating the concerns of data storage and retrieval.
             It is a virtual table.
 22) WITH - It can be used to simplify complex SQL queries by breaking them down into smaller, more manageable parts.
